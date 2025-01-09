@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>BetterThxn</h1>
+        <nav><a href="sobre.html">Sobre</a>
+            <a href="home.html">Home</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <div id="divmain1"><img src="images/Mobi_Like_0008-2.jpg" alt="Economico" id="mobiimg" style="width: 300px;" style="border-radius: 30px;"></div>
+        <div id="divmain2"><img src="images/fiat-pulse-s-design-2024.webp" alt="SUV" style="height: 200px; width: 300px;"></div>
+        <div id="divmain3"><img src="" alt=""></div>
+    </main>
+    <section id="buscaveiculo">
+        <div id="div1">
+            <h2>Encontre Seu Veículo</h2>
+            <form action="#" method="get">
+                <label for="local">Local de Retirada:</label>
+                <input type="text" name="local" id="local" placeholder="Digite a Cidade">
+                <label for="local-devolve">
+                    <input type="checkbox" name="local-devolve" id="local-devolve">
+                Devolver em outra loja
+                </label>
+                <label for="data-inicio">Data de Inicio</label>
+                <input type="datetime-local" name="data-inicio" id="data-inicio">
+
+                <label for="data-fim">Data de devolução</label>
+                <input type="datetime-local" name="data-fim" id="data-fim">
+
+                <label for="categoria">Categoria de veiculo</label>
+                <select name="categoria" id="categoria">
+                    <option value="Economico">Econômico</option>
+                    <option value="SUV">SUV</option>
+                    <option value="Luxo">Luxo</option>
+                </select>
+                
+            </form>
+            <button type="submit">Buscar</button>
+    </section>
+    <footer>
+        <a href="https://instagram.com" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://facebook.com" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <img src="" alt="logo">
+    </footer>
+</body>
+</html>

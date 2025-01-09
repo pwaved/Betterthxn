@@ -1,0 +1,130 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    --cor-primaria: #24373f;
+    --cor-secundaria: #ffffff;
+    --cor-fundo: #1a191998;
+    --cor-texto: aliceblue;
+    --cor-accent: #4caf50;
+}   
+body {
+    margin: 0;
+    background-color: var(--cor-fundo);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: var(--cor-primaria);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+header > h1 {
+    margin: 0;
+    color: var(--cor-secundaria);
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: var(--cor-texto);
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav > a:hover {
+    background-color: var(--cor-accent);
+    color: var(--cor-secundaria);
+}
+#divmain1 img{
+     
+    border-radius: 10px;
+}
+
+#divmain2 img{
+    border-radius: 10px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+
+
+#buscaveiculo {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: var(--cor-secundaria);
+    width: 90%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#buscaveiculo h2 {
+    text-align: center;
+    color: var(--cor-primaria);
+}
+
+#buscaveiculo form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+#buscaveiculo input,
+#buscaveiculo select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#buscaveiculo button {
+    padding: 10px;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-accent);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#buscaveiculo button:hover {
+    background-color: #3a9e43;
+    transform: scale(1.05);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: var(--cor-primaria);
+}
+
+footer > a {
+    color: var(--cor-texto);
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+footer > a:hover {
+    color: var(--cor-accent);
+}
