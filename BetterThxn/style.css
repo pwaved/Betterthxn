@@ -10,7 +10,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Evita problemas de dimensionamento */
+    box-sizing: border-box;
 }
 
 
@@ -42,7 +42,7 @@ main {
 
 .accordion-container {
     display: flex;
-    flex-direction: column; /* Adiciona responsividade */
+    flex-direction: column; 
     align-items: center;
     gap: 10px;
     
@@ -73,7 +73,7 @@ main {
     background-color: var(--cor-secundaria, #f7f7f7);
     color: var(--cor-primaria);
     max-height: 40%;
-    display: flex; /* Show when panel is active */
+    display: flex; 
     justify-content: center;
     align-items: center
 }
