@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BetterThxn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    
+    <header>
+        <h1>BetterThxn</h1>
+        <nav><ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contato.html">Contato</a></li>
+               
+        </ul>
+        </nav>
+        
+    </header>
+    <aside id="mainaside" style="background-image: url(images/Mobi_Like_0008-2.jpg);  height: 200px;"> 
+
+        <div id="divaside1"></div>
+
+    </aside>
+    <main>
+        <div class="accordion-container">
+            <button class="accordion">Econômico</button>
+            <div class="panel">
+                <img class="panelimage" src="images/Mobi_Like_0008-2.png" data-categoria="Economico" alt="Mobi">
+                <img class="panelimage" src="images/kwid.png"data-categoria="Economico" alt="Kwid">
+                <p class="textpanel">Categoria de carros para economia em sua viagem. Disponíveis nesta categoria os seguintes veículos: Mobi e Kwid.</p>
+            </div>
+           
+            <button class="accordion">Sedan</button>
+            <div class="panel">
+                <img class="panelimage" src="images/ltz-2024_17111355460.png"data-categoria="Sedan" alt="Onix">
+                <img class="panelimage" src="images/7_8_HB20S_ComfortMt_Plus_Preto_2024.png"data-categoria="Sedan" alt="Hb20">
+                <img class="panelimage" src="images/Fiat-Cronos-2023.png" data-categoria="Sedan" alt="Cronos">
+              <p class="textpanel">Categoria de carros para conforto, com porta malas espaçoso. Disponíveis nesta categoria os seguintes veículos: Onix, Hb20 e Cronos.</p>
+            </div>
+            
+            <button class="accordion">SUV</button>
+            <div class="panel">
+                <img class="panelimage" src="images/fiat-pulse-s-design-2024.png"data-categoria="SUV" alt="Pulse">
+                <img class="panelimage" src="images/tracker.png"data-categoria="SUV" alt="Tracker">
+                <img class="panelimage" src="images/TCross.png"data-categoria="SUV" alt="TCross">
+              <p class="textpanel">Categoria de carros SUV, porta malas espaçoso, conforto e autonomia. Disponíveis nesta categoria os seguiontes veículos: Pulse, Tracker e Tcross.</p>
+            </div>
+
+            <button class="accordion">Luxo</button>
+            <div class="panel">
+                <img class="panelimage" src="images/nissan-sentra-exclusive-2023.png"data-categoria="Luxo" alt="Sentra">
+                <img class="panelimage" src="images/audi-a3-sedan-s-line-2024-3.png"data-categoria="Luxo" alt="AudiA3">
+                <img class="panelimage" src="images/2014-779321440-mitsubishi-lancer-evo-x-final-concept-boasts-with-473-horsepo.png"data-categoria="Luxo" alt="Lancer">
+              <p class="textpanel">Categoria de carros luxuosos, com banco de couro. Disponíveis nesta categoria os seguintes veículos: Nissan Sentra, Audi A3 e Mitsubishi Lancer Evo X. </p>
+            </div>
+            <button class="accordion">Esportivo</button>
+            <div class="panel">
+                <img class="panelimage" src="" alt="">
+                <img class="panelimage" src="" alt="">
+                
+              <p class="textpanel">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+      
+        
+
+          
+    </main>
+    <section id="buscaveiculo">
+        <div id="div1">
+            <h2>Encontre Seu Veículo</h2>
+            <form action="#" method="get">
+                <label for="local">Local de Retirada:</label>
+                <input type="text" name="local" id="local" placeholder="Digite a Cidade">
+                <label for="local-devolve">
+                    <input type="checkbox" name="local-devolve" id="local-devolve">
+                Devolver em outra loja
+                </label>
+                <label for="data-inicio">Data de Inicio</label>
+                <input type="datetime-local" name="data-inicio" id="data-inicio">
+
+                <label for="data-fim">Data de devolução</label>
+                <input type="datetime-local" name="data-fim" id="data-fim">
+
+                <label for="categoria">Categoria de veiculo</label>
+                <select name="categoria" id="categoria">
+                    <option value="Economico">Econômico</option>
+                    <option value="Sedan">Sedan</option>
+                    <option value="SUV">SUV</option>
+                    <option value="Luxo">Luxo</option>
+                    <option value="Esportivo">Esportivo</option>
+                </select>
+                
+            </form>
+            <button type="submit" id="buscar">Buscar</button>
+    </section>
+    <aside id="mainaside" style="background-image: url(images/Mobi_Like_0008-2.jpg);"> 
+
+        <div id="divaside1" style="height: 200;"></div>
+
+    </aside>
+    <footer>
+        <a href="https://instagram.com" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://facebook.com" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <img src="" alt="logo">
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
