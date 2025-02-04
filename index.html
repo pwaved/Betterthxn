@@ -16,13 +16,11 @@
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contato.html">Contato</a></li>
-               
         </ul>
         </nav>
-        
+
     </header>
     <aside id="mainaside" style="background-image: url(images/Mobi_Like_0008-2.jpg);  height: 200px;"> 
-
         <div id="divaside1"></div>
 
     </aside>
@@ -74,18 +72,18 @@
     <section id="buscaveiculo">
         <div id="div1">
             <h2>Encontre Seu Veículo</h2>
-            <form action="#" method="get">
+            <form action="#" method="post">
                 <label for="local">Local de Retirada:</label>
-                <input type="text" name="local" id="local" placeholder="Digite a Cidade">
+                <input type="text" name="local" id="local" placeholder="Digite a Cidade required">
                 <label for="local-devolve">
-                    <input type="checkbox" name="local-devolve" id="local-devolve">
+                    <input type="checkbox" name="local-devolve" id="local-devolve" required>
                 Devolver em outra loja
                 </label>
                 <label for="data-inicio">Data de Inicio</label>
-                <input type="datetime-local" name="data-inicio" id="data-inicio">
+                <input type="datetime-local" name="data-inicio" id="data-inicio" required>
 
                 <label for="data-fim">Data de devolução</label>
-                <input type="datetime-local" name="data-fim" id="data-fim">
+                <input type="datetime-local" name="data-fim" id="data-fim" required >
 
                 <label for="categoria">Categoria de veiculo</label>
                 <select name="categoria" id="categoria">
